@@ -1,7 +1,6 @@
 fun main(args: Array<String>) {
-    println("Hello World!")
+    val array = listOf(5, 1, 22, 25, 6, -1, 8, 10)
+    val sequence = listOf(1, 6, -1, 10)
 
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+    isValidSubsequence(array, sequence)
 }
