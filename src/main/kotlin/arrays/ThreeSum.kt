@@ -1,3 +1,5 @@
+package arrays
+
 fun threeNumberSum(array: MutableList<Int>, targetSum: Int): List<List<Int>> {
     val result = ArrayList<List<Int>>()
 

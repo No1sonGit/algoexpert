@@ -1,3 +1,5 @@
+package arrays
+
 fun isValidSubsequence(array: List<Int>, sequence: List<Int>): Boolean {
     var index = 0;
 
